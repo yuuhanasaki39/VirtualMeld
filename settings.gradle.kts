@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "VirtualMeld"
 include(":app-android")
 include(":core:platform")
+include(":unityLibrary")
