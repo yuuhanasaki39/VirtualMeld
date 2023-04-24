@@ -17,3 +17,5 @@ rootProject.name = "VirtualMeld"
 include(":app-android")
 include(":core:platform")
 include(":unityLibrary")
+include(":features:home")
+include(":features:avatar")
