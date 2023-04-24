@@ -46,8 +46,7 @@ dependencies {
     implementation(libs.composeFoundation)
     implementation(libs.composeMaterial)
     implementation(libs.androidxActivityCompose)
-    implementation(project(":unityLibrary"))
-    implementation("androidx.constraintlayout:constraintlayout:2.1.3")
-    val unityLibraryDir = File("../unityLibrary/libs/")
-    implementation(fileTree(mapOf("dir" to unityLibraryDir, "include" to arrayOf("*.jar"))))
+    implementation(libs.androidxNavigationCompose)
+    implementation(project(":features:home"))
+    implementation(project(":features:avatar"))
 }

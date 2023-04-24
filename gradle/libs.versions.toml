@@ -3,6 +3,7 @@ androidGradlePlugin = "8.0.0"
 kotlin = "1.8.10"
 compose = "1.4.0"
 androidxActivity = "1.6.1"
+androidxNavigation = "2.5.3"
 
 [plugins]
 androidGradlePlugin = { id = "com.android.application", version.ref = "androidGradlePlugin" }
@@ -17,3 +18,4 @@ composeUiToolingPreview = { module = "androidx.compose.ui:ui-tooling-preview", v
 composeFoundation = { module = "androidx.compose.foundation:foundation", version = "compose" }
 composeMaterial = { module = "androidx.compose.material:material", version.ref = "compose" }
 androidxActivityCompose = { module = "androidx.activity:activity-compose", version.ref = "androidxActivity" }
+androidxNavigationCompose = { module = "androidx.navigation:navigation-compose", version.ref = "androidxNavigation" }
